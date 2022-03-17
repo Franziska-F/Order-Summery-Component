@@ -1,0 +1,59 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.img-head img {
+  width: 350px;
+}
+.order-summery {
+  text-align: center;
+}
+
+.billing {
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 15px 5px 15px 5px;
+}
+
+.billing img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.billing h2 {
+  margin: 0;
+}
+.billing p {
+  margin-top: 5px;
+}
+.billing button {
+  border: none;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.payment-button {
+  margin: 15px auto;
+}
+.payment-button button {
+  padding: 10px 60px;
+}
+.cancel {
+  margin: 0 auto;
+}
