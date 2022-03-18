@@ -1,5 +1,6 @@
 body {
   font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
 }
 
 .attribution {
@@ -14,13 +15,27 @@ body {
   flex-direction: column;
   margin: 0 auto;
   width: 350px;
+  background-color: white;
+  border-radius: 10px;
 }
-
+.img-head {
+  border-radius: 10px;
+}
 .img-head img {
-  width: 350px;
+  width: 100%;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+.text-container {
+  padding: 0 30px 0 30px;
 }
 .order-summery {
   text-align: center;
+}
+.order-summery p {
+  font-size: 16px;
+  color: hsla(224, 23%, 55%, 0.605);
+  font-weight: 500;
 }
 
 .billing {
@@ -30,6 +45,7 @@ body {
   background-color: hsl(225, 100%, 98%);
   border-radius: 10px;
   padding: 15px 5px 15px 5px;
+  color: hsl(223, 47%, 23%);
 }
 
 .billing img {
@@ -39,9 +55,11 @@ body {
 }
 .billing h2 {
   margin: 0;
+  font-size: 16px;
 }
 .billing p {
   margin-top: 5px;
+  font-size: 15px;
 }
 .billing button {
   border: none;
@@ -53,7 +71,26 @@ body {
 }
 .payment-button button {
   padding: 10px 60px;
+  display: block;
+  margin: 15px auto;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 5px 10px 10px hsl(224, 23%, 55%);
+  border-radius: 10px;
+  border: solid 1px hsl(245, 75%, 52%);
 }
 .cancel {
   margin: 0 auto;
+}
+.cancel button {
+  display: block;
+  margin: 15px auto 40px auto;
+  background-color: white;
+  border: none;
+  color: hsl(223, 47%, 23%);
+  font-size: 16px;
+  font-weight: 700;
+}
+.cancel button:hover {
+  cursor: pointer;
 }
